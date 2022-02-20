@@ -1,0 +1,104 @@
+.PalayArea{
+    width:auto;
+    height:auto;
+ 
+}
+.PalayImage img{
+    width:1400px;
+    height:750px;
+    border: 1px solid;
+    margin-left:10px;
+    margin-top: 10px;
+    position: absolute;
+    
+}
+.Gamer1 img{
+   position: absolute;
+   width:200px;
+   margin-left:480px ;
+   margin-top:520px ;
+}
+.Gamer1Hp img{
+    width: 50px;
+    position:absolute;
+    margin-left:480px;
+    margin-top:420px;
+}
+
+.Gamer1HpText {
+   position: absolute;
+   margin-left:530px;
+   margin-top:420px;
+   background-color: antiquewhite;
+   width:100px ;
+   height:50px ;
+}
+.Gamer1HpText h1{
+   font-size: 50px;
+   color: plum;
+  margin-top:-7px;
+}
+
+.Gamer1AtackButton button{
+   position: absolute;
+   width:80px ;
+   height:60px;
+   background-color:forestgreen;
+   color: antiquewhite;
+   margin-left:330px;
+   margin-top:520px;
+   border-radius:50px; ;
+}
+.Gamer2 img{
+position: absolute;
+margin-left: 940px ;
+margin-top: 500px;
+height:150px ;
+}
+.Gamer2Hp img{
+ width: 50px;
+ position:absolute;
+ margin-left:950px;  
+ margin-top:400px;
+}
+.Gamer2HpText{
+ width: 50px;
+ position:absolute;
+ margin-left:1000px;  
+ margin-top:400px;
+ background-color: antiquewhite;
+ height: 50px;
+ width:100px;
+ 
+}
+.Gamer2HpText h1{
+ font-size: 50px;
+   color: plum;
+  margin-top:-7px;
+  
+}
+.Gamer2AtackButton button{
+   position: absolute;
+   width:80px ;
+   height:60px;
+   background-color:forestgreen;
+   color: antiquewhite;
+   margin-left:1150px;
+   margin-top:520px;
+   border-radius:50px; ;
+}
+.Gamer2AtackText h1{
+   height: 50px;
+   width: 400px;
+   position:absolute;
+   margin-top: 350px;
+   margin-left: 230px;
+}
+.Gamer1AtackText h1{
+   height: 50px;
+   width: 400px;
+   position:absolute;
+   margin-top: 290px;
+   margin-left: 800px;
+   
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <link href="../Css/Page.css" type="text/css" rel="stylesheet"/>
+   
+</head>
+<body>
+    <!--Oyunun Alanı-->
+
+    <div class="PalayArea">
+
+    <!--Oyunun Resmi-->   
+
+        <div class="PalayImage">
+            <img src="..\Image\Park.jpg">
+        </div>
+
+    <!--Oyuncu1 Can Resmi-->
+
+        <div class="Gamer1Hp">
+            <img src="../Image/Hp.jpg">
+        </div>
+
+    <!--Oyuncu1 Can Yazısı-->
+
+        <div class="Gamer1HpText">
+            <h1 id="Gamer1">100</h1>
+        </div>
+
+    <!--Oyuncu1 Resimi-->
+
+         <div class="Gamer1">
+            <img src="../Image/Gamer1.png" >
+         </div>
+
+         <!--Oyuncu1 Saldırı Butonu-->
+             
+                <div class="Gamer1AtackButton">
+                    <button id="gamer1btn" onclick="Gamer1Button()">Saldır</button>
+                   </div>
+                
+            
+                   <div class="Gamer1AtackText">
+                    <h1 id="Gamer1HpExpilaton"></h1>
+                </div>
+        
+        <!--Oyuncu2 Resmi-->
+
+        <div class="Gamer2">
+             <img src="../Image/Gamer2.jpg">
+        </div>
+        
+     <!-- Oyuncu2 Can Resmi -->
+
+        <div class="Gamer2Hp">
+           <img src="../Image/Hp.jpg">
+        </div>
+    
+      <!--Oyuncu2 Can Yazısı-->
+
+      <div class="Gamer2HpText">
+          <h1 id="Gamer2">100</h1>
+      </div>
+
+      <!--Oyuncu2 Saldırı butonu-->
+      
+      <div class="Gamer2AtackButton">
+        <button id="Gamer2btn" onclick="Gamer2Button()">Saldır</button>
+       </div>
+
+       <div class="Gamer2AtackText">
+        <h1 id="Gamer2HpExpilaton"></h1>
+    </div>
+    </div>
+   
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+<script src="../Veu/Page.js"></script>
+</body>
+
+</html>

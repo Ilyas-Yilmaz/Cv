@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "axios": "^0.25.0",
+    "browserify": "^17.0.0",
+    "envify": "^4.1.0",
+    "vue": "^2.6.14"
+  }
+}
